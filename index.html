@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologia e Meio Ambiente no Campo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo">
+                <span class="logo-tech">Agro</span><span class="logo-eco">Futuro</span>
+            </div>
+            <nav class="nav-menu" aria-label="Navegação Principal">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#manifesto">Manifesto</a></li>
+                    <li><a href="#beneficios">Benefícios</a></li>
+                    <li><a href="#comunidade">Comunidade</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="accessibility-panel" id="acessibilidade-painel" role="region" aria-label="Painel de Acessibilidade">
+        <button class="acc-toggle" id="accToggle" aria-expanded="false" aria-controls="accOptions" title="Menu de Acessibilidade">
+            <svg viewBox="0 0 24 24" class="icon-svg" aria-hidden="true">
+                <path d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm1 6h-2v2h2V8zm0 4h-2v6h2v-6z"/>
+            </svg>
+            <span class="sr-only">Painel de Acessibilidade</span>
+        </button>
+        <div class="acc-options" id="accOptions">
+            <button id="btnAumentarFonte" title="Aumentar Fonte">A+</button>
+            <button id="btnDiminuirFonte" title="Diminuir Fonte">A-</button>
+            <button id="btnToggleTema" title="Alternar Modo Escuro/Claro">
+                <svg viewBox="0 0 24 24" class="icon-svg" aria-hidden="true"><path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m11.314 11.314l.707.707M12 5a7 7 0 100 14 7 7 0 000-14z"/></svg>
+            </button>
+            <button id="btnIniciarVoz" title="Ouvir Conteúdo">
+                <svg viewBox="0 0 24 24" class="icon-svg" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+            </button>
+            <button id="btnPararVoz" title="Parar Áudio" disabled>
+                <svg viewBox="0 0 24 24" class="icon-svg" aria-hidden="true"><path d="M6 6h12v12H6z"/></svg>
+            </button>
+        </div>
+    </div>
+
+    <main id="conteudo-principal">
+
+        <section id="home" class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="badge">Inovação Sustentável 2026</div>
+                <h1 class="hero-title">Tecnologia e Meio Ambiente reforçam a qualidade de vida no campo</h1>
+                <p class="hero-subtitle">Descubra como a Inteligência Artificial e os ecossistemas digitais estão moldando uma revolução verde silenciosa, unindo máxima produtividade e preservação biológica ativa.</p>
+                <div class="hero-actions">
+                    <a href="#manifesto" class="btn btn-primary">Conhecer Manifesto</a>
+                    <a href="#beneficios" class="btn btn-secondary">Explorar Tecnologias</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="manifesto" class="manifesto-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">O Protagonismo da Inteligência Verde</h2>
+                    <div class="title-line"></div>
+                </div>
+
+                <div class="grid-layout col-2-3">
+                    <div class="text-block">
+                        <p class="highlight-text">
+                            A preservação ambiental e a inovação sustentável ganham cada vez mais espaço no debate global em um momento marcado pelas mudanças climáticas, pressões sobre recursos naturais e necessidade de garantir qualidade de vida no meio rural.
+                        </p>
+                        <p>
+                            Especialistas apontam que esse cenário coloca o Brasil em posição de destaque por unir ciência, tecnologia e práticas agrícolas sustentáveis capazes de equilibrar produção e conservação ambiental. Enquanto temas como transformação digital, energias renováveis e biotecnologia dominam parte das discussões internacionais, uma revolução silenciosa vem fortalecendo o papel brasileiro na sustentabilidade do campo.
+                        </p>
+                        <p>
+                            O desenvolvimento de tecnologias voltadas ao monitoramento ambiental, gestão eficiente da água e preservação do solo demonstra como o país pode contribuir para tornar a vida no campo mais saudável e equilibrada.
+                        </p>
+                    </div>
+
+                    <div class="image-wrapper">
+                        <div class="imagem"> <img src="https://www.magnific.com/br/fotos/campo" alt="Vista aérea de um campo cultivado integrado a uma reserva florestal nativa com sensores tecnológicos discretos."> </div>
+                    </div>
+                </div>
+
+                <div class="grid-layout col-3-2">
+                    <div class="image-wrapper">
+                        <div class="imagem"> <img src="https://www.magnific.com/br/fotos/campo" alt="Produtor rural observando painel digital em tablet integrando dados ecológicos e climáticos diretamente em meio à plantação."> </div>
+                    </div>
+
+                    <div class="text-block">
+                        <p>
+                            Pesquisadores e empreendedores rurais brasileiros têm conquistado reconhecimento internacional por desenvolver solutions capazes de melhorar a qualidade de vida no campo. Na prática, sistemas digitais e tecnologias inteligentes auxiliam agricultores e comunidades na gestão de recursos naturais, prevenção da degradação ambiental e promoção de práticas sustentáveis, aumentando a resiliência e a produtividade das regiões rurais.
+                        </p>
+                        <p>
+                            Esse avanço possui importância estratégica. O meio rural enfrenta desafios relacionados à conservação ambiental, escassez de recursos hídricos e pressão por maior produtividade sem comprometer o ecossistema. Nesse contexto, a tecnologia surge como uma alternativa capaz de combinar sustentabilidade, eficiência econômica e promoção de qualidade de vida para as populações rurais.
+                        </p>
+                        <blockquote class="quote-callout">
+                            "O verdadeiro valor não está apenas nos equipamentos, mas na inteligência aplicada para proteger o meio ambiente e melhorar vidas."
+                        </blockquote>
+                        <p>
+                            O reconhecimento internacional recebido por pesquisadores e iniciativas brasileiras reforça uma mudança de percepção sobre o país, que passa a ser visto não apenas como exportador de commodities, mas também como protagonista em inovação ambiental aplicada ao campo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="beneficios" class="beneficios-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Benefícios da Tecnologia Ambiental e IA para o Campo</h2>
+                    <p class="section-description">O uso de tecnologias digitais e Inteligência Artificial (IA) no meio rural está transformando práticas agrícolas e ambientais, promovendo eficiência, sustentabilidade e qualidade de vida.</p>
+                    <div class="title-line center"></div>
+                </div>
+
+                <div class="cards-grid">
+                    <article class="benefit-card">
+                        <div class="card-icon">01</div>
+                        <h3>Otimização de recursos naturais</h3>
+                        <p>Sistemas inteligentes permitem o uso mais eficiente da água, solo e energia. Sensores e softwares podem monitorar a umidade do solo, necessidade de irrigação e uso de fertilizantes, garantindo menor desperdício e maior preservação ambiental.</p>
+                    </article>
+
+                    <article class="benefit-card">
+                        <div class="card-icon">02</div>
+                        <h3>Monitoramento ambiental e da produção</h3>
+                        <p>Drones e sensores ambientais permitem mapear áreas agrícolas, identificar degradação do solo, contaminação hídrica e desmatamento irregular. Essas tecnologias também ajudam a planejar a produção agrícola de forma sustentável, equilibrando produtividade e preservação.</p>
+                    </article>
+
+                    <article class="benefit-card">
+                        <div class="card-icon">03</div>
+                        <h3>Previsibilidade e gestão de riscos ambientais</h3>
+                        <p>A IA possibilita analisar dados climáticos, históricos de produção e indicadores ambientais para prever secas, enchentes e pragas, ajudando agricultores e comunidades a se prepararem para eventos extremos e protegerem a biodiversidade local.</p>
+                    </article>
+
+                    <article class="benefit-card">
+                        <div class="card-icon">04</div>
+                        <h3>Automação sustentável</h3>
+                        <p>Máquinas e equipamentos inteligentes permitem plantar, colher e manejar culturas de forma precisa, reduzindo impactos ambientais e aumentando a eficiência no uso de recursos, ao mesmo tempo em que diminui a necessidade de trabalho manual exaustivo.</p>
+                    </article>
+
+                    <article class="benefit-card">
+                        <div class="card-icon">05</div>
+                        <h3>Melhoria da qualidade de vida no campo</h3>
+                        <p>A tecnologia contribui para a saúde e bem-estar das comunidades rurais, promovendo práticas agrícolas mais limpas, alimentos de melhor qualidade e segurança ambiental. A rastreabilidade de produtos garante transparência e fortalece a conexão entre produção sustentável e consumidores conscientes.</p>
+                    </article>
+
+                    <article class="benefit-card">
+                        <div class="card-icon">06</div>
+                        <h3>Sustentabilidade e preservação ambiental</h3>
+                        <p>Ao otimizar o uso de água, fertilizantes e defensivos, e ao monitorar constantemente a saúde do solo e da vegetação, a tecnologia ajuda a reduzir impactos ambientais, promover a conservação e assegurar que o campo continue sendo fonte de vida, alimento e bem-estar para as próximas gerações.</p>
+                    </article>
+                </div>
+
+                <div class="image-center-container">
+                    <div class="imagem"> <img src="https://www.magnific.com/br/fotos/campo" alt="Estufa automatizada de alta tecnologia monitorada por inteligência artificial operando em harmonia com o ecossistema local."> </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="comunidade" class="comments-section">
+            <div class="container narrow">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Espaço de Interação & Diálogo</h2>
+                    <p class="section-description">Como você enxerga a fusão entre alta tecnologia e conservação natural na sua região? Deixe sua contribuição.</p>
+                    <div class="title-line center"></div>
+                </div>
+
+                <div class="comment-box-container">
+                    <form id="formComentario" class="comment-form">
+                        <div class="form-group">
+                            <label for="txtComentario">Seu comentário ou perspectiva:</label>
+                            <textarea id="txtComentario" name="comentario" rows="5" placeholder="Escreva aqui sua opinião sobre a tecnologia e qualidade de vida no campo..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Enviar Comentário</button>
+                    </form>
+
+                    <div class="comments-display" id="listaComentarios" aria-live="polite">
+                        <h3 class="comments-subtitle">Discussões Recentes</h3>
+                        <div class="no-comments" id="placeholderComentario">Nenhum comentário enviado ainda. Seja o primeiro a participar!</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-tech">Agro</span><span class="logo-eco">Futuro</span>
+                    </div>
+                    <p class="footer-tagline">AgroFuturo 2026 ° Conectando a inteligência tecnológica à terra de forma sustentável</p>
+                </div>
+                <div class="footer-refs">
+                    <h4>Referências Utilizadas</h4>
+                    <ul>
+                        <li><a href="https://share.google/Xfx8wTF9u0o0QY4aD" target="_blank" rel="noopener noreferrer">Material de Base - AgroFuturo (Share Google)</a></li>
+                        <li><a href="https://www.usjt.br" target="_blank" rel="noopener noreferrer">Tecnologia na saúde: inovações que estão mudando vidas - USJT Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AgroFuturo. Todos os direitos reservados. Interfaces de Alta Performance.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
